@@ -1,9 +1,14 @@
+import Link from 'next/link'
+
 function Home() {
-  return <div>
+  return (<div>
     <center>
-      <h1>Home 1</h1>
+      <h1>Home</h1>
+      <Link href="/about">
+        <a>About Four Eyes Apps</a>
+      </Link>
     </center>
-  </div>
+  </div>)
 }
 
 
