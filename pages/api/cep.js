@@ -1,5 +1,5 @@
 function Cep(request, response) {
-  // console.log(request)
+  console.log(request)
   response.json({
     status: "OK"
   })
