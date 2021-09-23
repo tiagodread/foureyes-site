@@ -4,7 +4,7 @@ function Home() {
   return (<div>
     <center>
       <h1>Home</h1>
-      <Link href="/abo  ut">
+      <Link href="/about">
         <a>About Four Eyes Apps</a>
       </Link>
     </center>
